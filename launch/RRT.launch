@@ -14,7 +14,7 @@
   <node pkg="ros_autonomous_slam" type="local_rrt_detector" name="local_detector" output="screen">
   <param name="eta" value="$(arg eta)"/>
   <param name="map_topic" value="/map"/>
-  <param name="robot_frame" value="/base_link"/>
+  <param name="robot_frame" value="/base_footprint"/>
   </node>
  
   
